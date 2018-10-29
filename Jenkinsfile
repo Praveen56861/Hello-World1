@@ -20,7 +20,6 @@ pipeline {
         }
         stage('Test Edge') {
           steps {
-            sh 'echo\'Testing safari\''
             sh 'echo\'Testing edge\''
           }
         }
