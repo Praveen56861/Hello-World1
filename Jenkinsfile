@@ -18,9 +18,10 @@ pipeline {
             sh 'echo \'Testing chrome\''
           }
         }
-        stage('Test safari') {
+        stage('Test Edge') {
           steps {
             sh 'echo\'Testing safari\''
+            sh 'echo\'Testing edge\''
           }
         }
       }
